@@ -1,0 +1,87 @@
+body {
+
+    background-image: url("Screenshot_57.png");
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+  }
+  
+  .header {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .intro-block{
+    max-width: 1000px;
+    margin: 10px auto;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  }
+  
+  .content {
+    margin-top: 20px;
+  }
+  
+  form {
+    display: grid;
+    grid-gap: 10px;
+    padding: 30px; /* Adiciona um espaçamento interno de 20px */
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona sombra */
+  }
+  
+  input,
+  select,
+  textarea {
+    width: calc(100% - 50px); /* Define a largura do campo com uma margem de 10px em cada lado */
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px; /* Adiciona um espaço entre os campos */
+  }
+  
+  label {
+    font-size: 14px;
+    display: block;
+  }
+  
+  button {
+    width: calc(100% - 20px); /* Define a largura do botão com uma margem de 10px em cada lado */
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="%23000" d="M7 10l5 5 5-5H7z"/></svg>');
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: center;
+  }
+  
+  .terms {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    font-size: 12px;
+  }
+  

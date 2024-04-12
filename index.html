@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ombudsman</title>
+  <!-- Inclua o link para o CSS do Bootstrap -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+      <div class="header">
+        <h1>Ouvidoria</h1>
+      </div>
+      <div class="content">
+        <div class="intro-block">
+            <p>The Unifacisa is a channel of communication of a mediating and democratic nature, which welcomes manifestations from students, professors, employees, and the general community. If you have any complaints, reports, suggestions, requests, or compliments, please contact us through our email: ouvidoria@unifacisa.edu.br or, if you prefer, fill out our form by clicking the link below.</p>
+          </div>
+        <form action="#">
+          <input type="text" class="form-control" placeholder="Full Name" required>
+          <select class="form-control" required>
+            <option value="" disabled selected>Occupation</option>
+            <option value="Student">Student</option>
+            <option value="Professor">Professor</option>
+            <option value="Employee">Employee</option>
+          </select>
+          <input type="tel" class="form-control" placeholder="Phone" required>
+          <input type="email" class="form-control" placeholder="Email" required>
+          <select class="form-control" required>
+            <option value="" disabled selected>Type</option>
+            <option value="Complaint">Complaint</option>
+            <option value="Compliment">Compliment</option>
+            <option value="Report">Report</option>
+            <option value="Criticism">Criticism</option>
+            <option value="Inquiry">Inquiry</option>
+          </select>
+          <select class="form-control" required>
+            <option value="" disabled selected>Character</option>
+            <option value="Confidential">Confidential</option>
+            <option value="Non-confidential">Non-confidential</option>
+          </select>
+          <input type="text" class="form-control" placeholder="Subject" required>
+          <textarea class="form-control" placeholder="Incident Report" required></textarea>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  <!-- Inclua os scripts JavaScript do Bootstrap -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
